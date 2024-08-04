@@ -1,12 +1,16 @@
+import SettingsHeader from "./components/SettingsHeader";
 
 export default function App() {
   return (
-		<main className="container-fluid">
-      <div className="row">
-        <div className="col-12">
-          <h1 className="display-1">App Goes Here</h1>
+    <>
+      <SettingsHeader />
+      <main className="container-fluid">
+        <div className="row">
+          <div className="col-12">
+            <h1 className="display-1">App Goes Here</h1>
+          </div>
         </div>
-      </div>
-		</main>
+      </main>
+    </>
   );
 };
